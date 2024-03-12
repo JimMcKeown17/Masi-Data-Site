@@ -1,0 +1,49 @@
+
+// Donate button
+.donate:hover{
+    background-color: var(--bs-primary);
+    color: white;
+    border-color: white;
+}
+
+@media(max-width: 1200px){
+    .hero .image-container{
+        display: flex;
+        justify-content: center;
+    }
+
+    .hero .text-container{
+        text-align: center;
+    }
+
+    p.mt-5.lead{
+        margin-top: 1rem !important;
+    }
+}
+
+/* Responsive iframe container */
+.image-container2 {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 56.25%; /* 16:9 Aspect Ratio */
+  }
+  
+  /* Absolute positioning to fill container */
+  .image-container2 iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+  }
+  
+
+// STATS
+
+.stats {
+    p{
+        margin-bottom: 0;
+    }
+}
