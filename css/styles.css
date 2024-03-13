@@ -4,12 +4,6 @@
   border-color: white;
 }
 
-/* .header{
-  background: url(..//static/header-background.jpg) center center no-repeat;
-  background-size: cover;
-
-} */
-
 @media (max-width: 1200px) {
   .hero .image-container {
     display: flex;
@@ -22,6 +16,10 @@
     margin-top: 1rem !important;
   }
 }
+.modal-dialog {
+  max-width: 1040px;
+}
+
 /* Responsive iframe container */
 .image-container2 {
   position: relative;

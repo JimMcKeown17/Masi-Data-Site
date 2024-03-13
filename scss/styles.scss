@@ -21,6 +21,12 @@
     }
 }
 
+// Increate size of modal
+
+.modal-dialog{
+    max-width: 1040px;
+}
+
 /* Responsive iframe container */
 .image-container2 {
     position: relative;

@@ -165,22 +165,29 @@
           </div>
           <div class="col-lg-6">
             <div class="image-container">
-              <img
+              <iframe
+                src="static/ecd_performance_vs_control.html"
+                style="border: none; width: 100%; height: 400px"
+                allowfullscreen
+                class="shadow"
+              ></iframe>
+              <!-- <img
                 src="static/ecd_performance_vs_control.png"
                 alt=""
                 class="img-fluid shadow"
-              />
+              /> -->
             </div>
           </div>
         </div>
         <div class="row align-items-center mt-6">
           <div class="col-lg-6">
             <div class="image-container">
-              <img
-                src="static/primary_performance_vs_control.png"
-                alt=""
-                class="img-fluid shadow"
-              />
+              <iframe
+                src="static/primary_performance_vs_control.html"
+                style="border: none; width: 100%; height: 400px"
+                allowfullscreen
+                class="shadow"
+              ></iframe>
             </div>
           </div>
           <div class="col-lg-6">
@@ -196,21 +203,21 @@
               </p>
               <ul class="list-group list-group-flush lh-lg">
                 <li class="list-group-item">
-                  <i class="fas fa-square text-secondary"></i>
+                  <i class="fas fa-square text-primary"></i>
                   We continue with <strong>Reading Stories</strong> to children,
                   striving to ensure all hear 1000 stories before age seven.
                 </li>
               </ul>
               <ul class="list-group list-group-flush lh-lg">
                 <li class="list-group-item">
-                  <i class="fas fa-square text-secondary"></i>
+                  <i class="fas fa-square text-primary"></i>
                   After mastering <strong>Phonics</strong>, we teach children to
                   blend, decode, and begin to write words.
                 </li>
               </ul>
               <ul class="list-group list-group-flush lh-lg">
                 <li class="list-group-item">
-                  <i class="fas fa-square text-secondary"></i>
+                  <i class="fas fa-square text-primary"></i>
                   When they are ready, we begin having the children
                   <strong>Read Beginner Stories</strong> themselves.
                 </li>
@@ -253,7 +260,12 @@
                 </p>
               </div>
               <div class="d-flex justify-content-center mb-3">
-                <a href="" class="btn btn-primary btn-sm">Analysis</a>
+                <a
+                  class="btn btn-primary btn-sm"
+                  data-bs-toggle="modal"
+                  data-bs-target="#modal1"
+                  >Analysis</a
+                >
               </div>
             </div>
           </div>
@@ -274,7 +286,9 @@
                 </p>
               </div>
               <div class="d-flex justify-content-center mb-3">
-                <a href="" class="btn btn-primary btn-sm">Analysis</a>
+                <a href="schools.html" class="btn btn-primary btn-sm"
+                  >Analysis</a
+                >
               </div>
             </div>
           </div>
@@ -315,6 +329,77 @@
               </div>
               <div class="d-flex justify-content-center mb-3">
                 <a href="" class="btn btn-primary btn-sm">Analysis</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- MODAL PROGRAMMATIC -->
+    <div id="modal1" class="modal fade">
+      <div class="modal-dialog modal-lg mt-7">
+        <div class="modal-content p-5">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="image-container">
+                <img
+                  src="static/primary_performance_vs_control.png"
+                  alt=""
+                  class="img-fluid"
+                />
+              </div>
+              <div class="d-flex flex-column">
+                <a
+                  href="programmatic.html"
+                  class="btn btn-primary text-white my-4"
+                  >See Details</a
+                >
+                <button class="btn btn-light" data-bs-dismiss="modal">
+                  Close
+                </button>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="text-container">
+                <div class="d-flex flex-column justify-content-center h-100">
+                  <h2 class="display-6 fw-semibold mb-1">Programmatic</h2>
+
+                  <p class="mb-3 fw-semibold">
+                    It's critical to identify which aspects of the programme are
+                    most, and least effective. Knowing this allows us to focus
+                    resources on investigating, improving, and iterating upon
+                    aspects of the programme that are not as effective.
+                  </p>
+                  <ul class="list-group list-group-flush lh-lg">
+                    <li class="list-group-item">
+                      <i class="fas fa-square text-secondary"></i>
+                      We closely track progress across
+                      <strong>Specific Literacy Skills</strong>
+                    </li>
+                  </ul>
+                  <ul class="list-group list-group-flush lh-lg">
+                    <li class="list-group-item">
+                      <i class="fas fa-square text-secondary"></i>
+                      We track progress of children in different
+                      <strong>Grades</strong> and/or <strong>Stages</strong> of
+                      reading.
+                    </li>
+                  </ul>
+                  <ul class="list-group list-group-flush lh-lg">
+                    <li class="list-group-item">
+                      <i class="fas fa-square text-secondary"></i>
+                      We track <strong>Dosage</strong> and correlations to
+                      progress.
+                    </li>
+                    <li class="list-group-item">
+                      <i class="fas fa-square text-secondary"></i>
+                      We constantly launch <strong>Iterations</strong> of our
+                      programme and track their effectivness relative to other
+                      versions.
+                    </li>
+                  </ul>
+                </div>
               </div>
             </div>
           </div>
