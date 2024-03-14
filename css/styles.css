@@ -20,6 +20,27 @@
   max-width: 1040px;
 }
 
+.feature-stats {
+  position: relative;
+}
+
+.photo-ecd-feature {
+  width: 850px;
+  position: absolute;
+  bottom: 0;
+  left: -100px !important;
+  z-index: 1;
+}
+
+.feature-stat-box {
+  z-index: 2;
+}
+
+.tiers .btn:hover {
+  background-color: white;
+  color: var(--bs-primary);
+}
+
 /* Responsive iframe container */
 .image-container2 {
   position: relative;
