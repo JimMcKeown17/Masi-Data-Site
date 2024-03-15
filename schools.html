@@ -51,28 +51,101 @@
       </div>
     </nav>
 
+    <!-- Header -->
+    <header class="header">
+      <!-- Hero -->
+      <div class="hero pt-7">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="text-container">
+                <div class="d-flex flex-column justify-content-center h-100">
+                  <h1 class="display-3 fw-bold">Site-Level</h1>
+                  <p class="display-7">Data Analysis</p>
+
+                  <p class="mb-3 fw-semibold">
+                    It's critical to identify how each site (schools &
+                    preschools) is performing. The team will divert resources,
+                    training, and interventions towards underperforming sites,
+                    while seeking to learn from and identify stars among the
+                    overperforming sites.
+                  </p>
+                  <ul class="list-group list-group-flush lh-lg">
+                    <li class="list-group-item">
+                      <i class="fas fa-square text-secondary"></i>
+                      We closely track progress across performance of
+                      <strong>Each School</strong>
+                    </li>
+
+                    <li class="list-group-item">
+                      <i class="fas fa-square text-secondary"></i>
+                      We divert manager/mentor attention to
+                      <strong>Lowest Performing</strong> sites to ensure we
+                      focus attention on where it's needed most.
+                    </li>
+
+                    <li class="list-group-item">
+                      <i class="fas fa-square text-secondary"></i>
+                      We <strong>Learn From</strong> what's working at our best
+                      performing sites.
+                    </li>
+                    <li class="list-group-item">
+                      <i class="fas fa-square text-secondary"></i>
+                      In general, we <strong>Expand</strong> interventions at
+                      sites with the best performance.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 d-flex align-items-center">
+              <div class="image-container mb-5 px-4">
+                <img
+                  src="static/school_total_performance_on_vs_off_sort_total.png"
+                  alt=""
+                  class="img-fluid"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
     <!-- Graphs & Charts -->
     <!-- Chart 1 (Left) -->
     <section class="primary-stats pt-5">
+      <section class="literacy-skills pt-5">
+        <div class="container">
+          <div class="row py-5">
+            <div class="col-12 text-center bg-secondary text-white py-4">
+              <h2>Performance by Sites</h2>
+            </div>
+          </div>
+        </div>
+      </section>
       <div class="container">
         <div class="row py-5">
           <div
             class="col-md-6 order-md-2 d-flex flex-column justify-content-center"
           >
             <div class="text-container ms-5">
-              <h2>Grades R - 3</h2>
+              <h2>Preschools (ECD Centres)</h2>
               <p>
-                On average, our primary school children outperformed the control
-                group by 43%. Compounded over 2-3 years, children on the
-                programme will learn to read, write and comprehend twice as fast
-                as their peers.
+                It's critical to track our most effective and least effective
+                Preschools so our mentorship team knows where to focus. The
+                ongoing goal is to identify the lowest performing centers,
+                identify reasons for underperformance, take action to remedy the
+                situation, and then repeat the cycle. By doing this, we raise
+                the 'floor' of performance of the entire programme and ensure
+                all children receive the assistance they deserve.
               </p>
             </div>
           </div>
           <div class="col-md-6 ms-auto order-md-1">
             <div class="image-container">
               <img
-                src="static/primary_performance_vs_control.png"
+                src="static/ecd_total_improvemement_ranked.png"
                 alt=""
                 class="img-fluid shadow-lg"
               />
@@ -89,18 +162,18 @@
             class="col-md-6 ms-auto d-flex flex-column justify-content-center"
           >
             <div class="text-container ms-5">
-              <h2>School Total Scores</h2>
+              <h2>ECD Total Scores (w Control Group)</h2>
               <p>
-                Schools are sorted by average November score. Results are skewed
-                higher for schools with Grade 2 & 3 programmes. It's more
-                accurate to look at per grade performance.
+                Preschools differ in quality of teaching, so it's important for
+                us to always compare the relative performance of our children vs
+                the control groups.
               </p>
             </div>
           </div>
           <div class="col-md-6 ms-auto">
             <div class="image-container">
               <img
-                src="static/school_total_performance_on_vs_off_sort_total.png"
+                src="static/ecd_total_performance_on_vs_off.png"
                 alt=""
                 class="img-fluid shadow-lg"
               />
@@ -137,6 +210,16 @@
       </div>
     </section>
     <!-- Chart 4 (Right) -->
+    <!-- Literacy Skills -->
+    <section class="literacy-skills pt-5">
+      <div class="container">
+        <div class="row py-5">
+          <div class="col-12 text-center bg-secondary text-white py-4">
+            <h2>Grade Performance by School</h2>
+          </div>
+        </div>
+      </div>
+    </section>
     <section class="primary-stats pt-5 bg-light">
       <div class="container">
         <div class="row py-5">
@@ -144,17 +227,17 @@
             class="col-md-6 ms-auto d-flex flex-column justify-content-center"
           >
             <div class="text-container ms-5">
-              <h2>Grade Level Improvement</h2>
+              <h2>Grade 1 Performance by School</h2>
               <p>
-                Children on the programme made excellent progress in comparison
-                to their peers in every grade.
+                Comparing improvement of Grade 1 children across different
+                schools.
               </p>
             </div>
           </div>
           <div class="col-md-6 ms-auto">
             <div class="image-container">
               <img
-                src="static/primary_total_performance_per_grade_on_vs_off.png"
+                src="static/Grade1_improvement_by_school.png"
                 alt=""
                 class="img-fluid shadow-lg"
               />
@@ -171,188 +254,17 @@
             class="col-md-6 order-md-2 d-flex flex-column justify-content-center"
           >
             <div class="text-container ms-5">
-              <h2>Grade R Total Scores</h2>
+              <h2>Grade 2 Performance by School</h2>
               <p>
-                This compares Jan and November total scores for Grade Rs. It
-                doesn't include control groups, but does show which schools are
-                best performing (for children ON the programme)
+                Comparing improvement of Grade 2 children across different
+                schools.
               </p>
             </div>
           </div>
           <div class="col-md-6 ms-auto order-md-1">
-            <div class="image-container">
-              <img
-                src="static/GradeR_sort_total.png"
-                alt=""
-                class="img-fluid shadow-lg"
-              />
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- Chart 6 (Right) -->
-    <section class="primary-stats pt-5 bg-light">
-      <div class="container">
-        <div class="row py-5">
-          <div
-            class="col-md-6 ms-auto d-flex flex-column justify-content-center"
-          >
-            <div class="text-container ms-5">
-              <h2>Grade R Improvement</h2>
-              <p>
-                This shows schools with the greatest improvement. But I need to
-                update these graphs to include control groups so we are
-                comparing apples to apples.
-              </p>
-            </div>
-          </div>
-          <div class="col-md-6 ms-auto">
-            <div class="image-container">
-              <img
-                src="static/GradeR_improvement_by_school.png"
-                alt=""
-                class="img-fluid shadow-lg"
-              />
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- Chart 7 (Left) -->
-    <section class="primary-stats pt-5">
-      <div class="container">
-        <div class="row py-5">
-          <div
-            class="col-md-6 order-md-2 d-flex flex-column justify-content-center"
-          >
-            <div class="text-container ms-5">
-              <h2>Grade 1 Total Scores</h2>
-              <p>
-                This compares Jan and November total scores for Grade 1s. It
-                doesn't include control groups, but does show which schools are
-                best performing (for children ON the programme). I must rerun w/
-                control groups.
-              </p>
-            </div>
-          </div>
-          <div class="col-md-6 ms-auto order-md-1">
-            <div class="image-container">
-              <img
-                src="static/Grade1_sort_total.png"
-                alt=""
-                class="img-fluid shadow-lg"
-              />
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- Chart 8 (Right) -->
-    <section class="primary-stats pt-5 bg-light">
-      <div class="container">
-        <div class="row py-5">
-          <div
-            class="col-md-6 ms-auto d-flex flex-column justify-content-center"
-          >
-            <div class="text-container ms-5">
-              <h2>Grade 1 Improvement</h2>
-              <p>
-                This shows schools with the greatest improvement. But I need to
-                update these graphs to include control groups so we are
-                comparing apples to apples.
-              </p>
-            </div>
-          </div>
-          <div class="col-md-6 ms-auto">
-            <div class="image-container">
-              <img
-                src="static/Grade1_improvement_by_school.png"
-                alt=""
-                class="img-fluid shadow-lg"
-              />
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- Chart 9 (Left) -->
-    <section class="primary-stats pt-5">
-      <div class="container">
-        <div class="row py-5">
-          <div
-            class="col-md-6 order-md-2 d-flex flex-column justify-content-center"
-          >
-            <div class="text-container ms-5">
-              <h2>Grade 2 Total Scores</h2>
-              <p>
-                This compares Jan and November total scores for Grade 2s. It
-                doesn't include control groups, but does show which schools are
-                best performing (for children ON the programme)
-              </p>
-            </div>
-          </div>
-          <div class="col-md-6 ms-auto order-md-1">
-            <div class="image-container">
-              <img
-                src="static/Grade2_sort_total.png"
-                alt=""
-                class="img-fluid shadow-lg"
-              />
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- Chart 10 (Right) -->
-    <section class="primary-stats pt-5 bg-light">
-      <div class="container">
-        <div class="row py-5">
-          <div
-            class="col-md-6 ms-auto d-flex flex-column justify-content-center"
-          >
-            <div class="text-container ms-5">
-              <h2>Grade 2 Improvement</h2>
-              <p>
-                This shows schools with the greatest improvement. But I need to
-                update these graphs to include control groups so we are
-                comparing apples to apples.
-              </p>
-            </div>
-          </div>
-          <div class="col-md-6 ms-auto">
             <div class="image-container">
               <img
                 src="static/Grade2_improvement_by_school.png"
-                alt=""
-                class="img-fluid shadow-lg"
-              />
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- Chart 11 (Left) -->
-    <section class="primary-stats pt-5">
-      <div class="container">
-        <div class="row py-5">
-          <div
-            class="col-md-6 order-md-2 d-flex flex-column justify-content-center"
-          >
-            <div class="text-container ms-5">
-              <h2>Grade 3 Total Scores</h2>
-              <p>
-                This compares Jan and November total scores for Grade 3s. It
-                doesn't include control groups, but does show which schools are
-                best performing (for children ON the programme). I must rerun w/
-                control groups.
-              </p>
-            </div>
-          </div>
-          <div class="col-md-6 ms-auto order-md-1">
-            <div class="image-container">
-              <img
-                src="static/Grade3_sort_total.png"
                 alt=""
                 class="img-fluid shadow-lg"
               />
@@ -389,8 +301,112 @@
         </div>
       </div>
     </section>
+    <!-- Chart 6 (Right) -->
+    <section class="literacy-skills pt-5">
+      <div class="container">
+        <div class="row py-5">
+          <div class="col-12 text-center bg-secondary text-white py-4">
+            <h2>Total Scores by Sites</h2>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="primary-stats pt-5 bg-light">
+      <div class="container">
+        <div class="row py-5">
+          <div
+            class="col-md-6 ms-auto d-flex flex-column justify-content-center"
+          >
+            <div class="text-container ms-5">
+              <h2>Grade 1 Total Scores</h2>
+              <p>
+                This compares Jan and November total scores for Grade 1s. It
+                doesn't include control groups, but does show which schools are
+                best performing (for children ON the programme).
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6 ms-auto">
+            <div class="image-container">
+              <img
+                src="static/Grade1_sort_total.png"
+                alt=""
+                class="img-fluid shadow-lg"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Chart 7 (Left) -->
+    <section class="primary-stats pt-5">
+      <div class="container">
+        <div class="row py-5">
+          <div
+            class="col-md-6 order-md-2 d-flex flex-column justify-content-center"
+          >
+            <div class="text-container ms-5">
+              <h2>Grade 2 Total Scores</h2>
+              <p>
+                This compares Jan and November total scores for Grade 2s. It
+                doesn't include control groups, but does show which schools are
+                best performing (for children ON the programme).
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6 ms-auto order-md-1">
+            <div class="image-container">
+              <img
+                src="static/Grade2_sort_total.png"
+                alt=""
+                class="img-fluid shadow-lg"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Chart 11 (Left) -->
+    <section class="primary-stats pt-5 bg-light">
+      <div class="container">
+        <div class="row py-5">
+          <div
+            class="col-md-6 ms-auto d-flex flex-column justify-content-center"
+          >
+            <div class="text-container ms-5">
+              <h2>Grade 3 Total Scores</h2>
+              <p>
+                This compares Jan and November total scores for Grade 3s. It
+                doesn't include control groups, but does show which schools are
+                best performing (for children ON the programme). I must rerun w/
+                control groups.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6 ms-auto">
+            <div class="image-container">
+              <img
+                src="static/Grade3_sort_total.png"
+                alt=""
+                class="img-fluid shadow-lg"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- SESSIONS -->
+    <section class="literacy-skills pt-5">
+      <div class="container">
+        <div class="row py-5">
+          <div class="col-12 text-center bg-secondary text-white py-4">
+            <h2>Tracking Dosage</h2>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- Sessions Chart 1 (Left) -->
     <section class="primary-stats pt-5">
