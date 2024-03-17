@@ -4,6 +4,32 @@
   border-color: white;
 }
 
+@media (max-width: 992px) {
+  .feature-stats {
+    padding: 40px 0 !important;
+  }
+  .hero .lead {
+    font-size: 14px !important;
+  }
+  .stats {
+    padding-top: 10px !important;
+  }
+  .primary-feature {
+    padding: 40px 0 !important;
+  }
+  .statement {
+    margin: 20px 0 !important;
+  }
+  .statement .text-container {
+    padding: 30px 10px !important;
+  }
+  .statement .text-container p {
+    padding: 0 !important;
+  }
+  .quote {
+    font-size: 14px;
+  }
+}
 @media (max-width: 1200px) {
   .hero .image-container {
     display: flex;
